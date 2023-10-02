@@ -1,0 +1,47 @@
+body{
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,195,233,1) 100%);
+}
+#form{
+    width: 400px;
+    margin-top: 20vh auto;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    padding: 30px;
+    
+
+}
+h1{
+    text-align: center;
+    color: blueviolet;
+
+}
+#form button{
+    background-color: green;
+    color: black;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%;   
+
+}
+.input-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px; 
+}
+.input-group input{
+    border-radius: 5px;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.error{
+    color: red;
+    font-size: 16px;
+    margin-top: 5px;
+}
